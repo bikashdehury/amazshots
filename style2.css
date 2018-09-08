@@ -1,0 +1,189 @@
+.home_btn {
+	box-shadow: 0px 0px 20px blue;
+	width: 8rem;
+}
+
+
+/*================================SERVICES============================*/
+
+.service_card{
+	box-shadow: 2px 2px 40px 2px black;
+}
+
+.service_card:hover {
+	box-shadow: none;
+	transition-duration: 0.4s;
+}
+
+
+
+/*==================================GALLERY====================================*/
+
+.img_gallery .row .col-3 a img {
+	height: auto;
+	width: 300px;
+	max-width: 300px;
+	max-height: 200px;
+	border: 3px solid #000000;
+	box-shadow: 0px 0px 20px 0px black;
+}
+
+.img_gallery .row .col-3 a img:hover {
+	box-shadow: none;
+	filter:sepia(80%);
+	transition-duration: 0.2s;
+}
+
+
+
+
+
+/*===================================TESTIMONIALS=========================================*/
+
+
+.testimonial_content {
+	margin-top: 5rem;
+}
+
+.testimonial_content .row {
+	margin-bottom: 5rem;
+	border: 0.5px solid black;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: cornsilk;
+}
+
+.testimonial_content .row .col-6 img {
+	box-shadow: 12px 12px 80px 2px black;
+}
+
+
+
+
+/*===================================ABOUT US=====================================*/
+
+.about_us_body {
+	background-image: url(images/about_us_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+/*=======================================BOOK NOW================================*/
+
+.container-fluid #form1 input {
+	color:aqua;
+	background-color: rgba(0,0,0,0.50);
+	box-shadow: 0px 0px 50px -5px #FFFF;
+}
+
+.container-fluid #form1 #service {
+	color:chartreuse;
+	background-color: rgba(0,0,0,0.50);
+	box-shadow: 0px 0px 50px -5px #FFFF;
+}
+
+.container-fluid #form1 #gender {
+	color:aqua;
+	background-color: rgba(0,0,0,0.50);
+	box-shadow: 0px 0px 50px -5px #FFFF;
+}
+
+.container-fluid #form1 input:focus,#service:focus,#gender:focus {
+	background-color: rgba(255,255,255,0.30);
+	box-shadow: 0px 0px 50px 0px #FFFF;
+	color: chartreuse;
+}
+
+.container-fluid #form1 .btn-primary {
+	background-color: rgba(0,92,255,0.50);
+}
+
+.container-fluid #form1 .btn-primary:hover {
+	background-color: rgba(0,92,255,1.00);
+}
+
+
+
+/*================================================APPLY NOW===========================================*/
+
+.container-fluid #form2 input {
+	color:aqua;
+	background-color: rgba(0,0,0,0.50);
+	box-shadow: 0px 0px 50px -5px #FFFF;
+}
+
+.container-fluid #form2 #service_job {
+	color:chartreuse;
+	background-color: rgba(0,0,0,0.50);
+	box-shadow: 0px 0px 50px -5px #FFFF;
+}
+
+.container-fluid #form2 #exp_job {
+	color:chartreuse;
+	background-color: rgba(0,0,0,0.50);
+	box-shadow: 0px 0px 50px -5px #FFFF;
+}
+
+.container-fluid #form2 #gender {
+	color:aqua;
+	background-color: rgba(0,0,0,0.50);
+	box-shadow: 0px 0px 50px -5px #FFFF;
+}
+
+.container-fluid #form2 input:focus,#service_job:focus,#gender:focus,#exp_job:focus {
+	background-color: rgba(255,255,255,0.30);
+	box-shadow: 0px 0px 50px 0px #FFFF;
+	color: chartreuse;
+}
+
+.container-fluid #form2 .btn-primary {
+	background-color: rgba(0,92,255,0.50);
+}
+
+.container-fluid #form2 .btn-primary:hover {
+	background-color: rgba(0,92,255,1.00);
+}
+
+
+
+
+
+/*=======================================PRODUCT LIST===================================*/
+
+
+#camera_section .card-deck .card {
+	box-shadow: 0px 0px 50px 0px black;
+}
+
+#lens_section .card-deck .card {
+	box-shadow: 0px 0px 50px 0px black;
+}
+
+#accessories_section .card-deck .card {
+	box-shadow: 0px 0px 50px 0px black;
+}
+
+#camera_section .card-deck .card:hover {
+	box-shadow: none;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+#lens_section .card-deck .card:hover {
+	box-shadow: none;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+#accessories_section .card-deck .card:hover {
+	box-shadow: none;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+
+
+
