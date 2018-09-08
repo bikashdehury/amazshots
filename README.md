@@ -1,0 +1,2 @@
+# amazshots
+Photography
